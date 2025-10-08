@@ -1,0 +1,85 @@
+(aazukaazu㉿kali)-[~/Sublist3r]
+└─$ sudo python sublist3r.py -d amazon.in
+/home/aazukaazu/Sublist3r/sublist3r.py:78: SyntaxWarning: invalid escape sequence '\_'
+  \___ \| | | | '_ \| | / __| __| |_ \| '__|
+/home/aazukaazu/Sublist3r/sublist3r.py:286: SyntaxWarning: invalid escape sequence '\/'
+  link_regx = re.compile('<cite.*?>(.*?)<\/cite>')
+/home/aazukaazu/Sublist3r/sublist3r.py:343: SyntaxWarning: invalid escape sequence '\/'
+  link = re.sub("<(\/)?b>", "", link)
+/home/aazukaazu/Sublist3r/sublist3r.py:439: SyntaxWarning: invalid escape sequence '\/'
+  link = re.sub('<(\/)?strong>|<span.*?>|<|>', '', link)
+/home/aazukaazu/Sublist3r/sublist3r.py:658: SyntaxWarning: invalid escape sequence '\/'
+  tbl_regex = re.compile('<a name="hostanchor"><\/a>Host Records.*?<table.*?>(.*?)</table>', re.S)
+/home/aazukaazu/Sublist3r/sublist3r.py:898: SyntaxWarning: invalid escape sequence '\-'
+  domain_check = re.compile("^(http|https)?[a-zA-Z0-9]+([\-\.]{1}[a-zA-Z0-9]+)*\.[a-zA-Z]{2,}$")
+/home/aazukaazu/Sublist3r/subbrute/subbrute.py:374: SyntaxWarning: invalid escape sequence '\.'
+  domain_match = re.compile("([a-zA-Z0-9_-]*\.[a-zA-Z0-9_-]*\.[a-zA-Z0-9_-]*)+")
+
+                 ____        _     _ _     _   _____
+                / ___| _   _| |__ | (_)___| |_|___ / _ __
+                \___ \| | | | '_ \| | / __| __| |_ \| '__|
+                 ___) | |_| | |_) | | \__ \ |_ ___) | |
+                |____/ \__,_|_.__/|_|_|___/\__|____/|_|
+
+                # Coded By Ahmed Aboul-Ela - @aboul3la
+    
+[-] Enumerating subdomains now for amazon.in
+[-] Searching now in Baidu..
+[-] Searching now in Yahoo..
+[-] Searching now in Google..
+[-] Searching now in Bing..
+[-] Searching now in Ask..
+[-] Searching now in Netcraft..
+[-] Searching now in DNSdumpster..
+[-] Searching now in Virustotal..
+[-] Searching now in ThreatCrowd..
+[-] Searching now in SSL Certificates..
+[-] Searching now in PassiveDNS..
+Process DNSdumpster-8:
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/aazukaazu/Sublist3r/sublist3r.py", line 268, in run
+    domain_list = self.enumerate()
+  File "/home/aazukaazu/Sublist3r/sublist3r.py", line 647, in enumerate
+    token = self.get_csrftoken(resp)
+  File "/home/aazukaazu/Sublist3r/sublist3r.py", line 641, in get_csrftoken
+    token = csrf_regex.findall(resp)[0]
+            ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+[!] Error: Virustotal probably now is blocking our requests
+[!] Error: Google probably now is blocking our requests
+[~] Finished now the Google Enumeration ...
+[-] Total Unique Subdomains Found: 31
+www.amazon.in
+aam.amazon.in
+aax-eu.amazon.in
+account-status.amazon.in
+advertising.amazon.in
+affiliate-program.amazon.in
+alexa.amazon.in
+amazonpay.amazon.in
+brandregistry.amazon.in
+business.amazon.in
+www.cdn.amazon.in
+flex.amazon.in
+fls-eu.amazon.in
+jobs.amazon.in
+kdp.amazon.in
+logistics.amazon.in
+lwa.amazon.in
+music.amazon.in
+pay.amazon.in
+payment.amazon.in
+read.amazon.in
+relay.amazon.in
+sell.amazon.in
+sellercentral.amazon.in
+sellerflex.amazon.in
+ship.amazon.in
+shipping.amazon.in
+smartbiz.amazon.in
+smartcommerce.amazon.in
+track.amazon.in
+vendorcentral.amazon.in
