@@ -1,0 +1,2 @@
+ID,Source,Req. Timestamp,Method,URL,Code,Reason,RTT,Size Resp. Body,Highest Alert,Note,Tags
+1,Proxy,Tue Oct 14 15:40:06 IST 2025,GET,http://127.0.0.1/DVWA,200,OK,7,1342,Medium,false,"Form, Password, Hidden, Comment"
